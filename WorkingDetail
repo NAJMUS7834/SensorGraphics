@@ -1,0 +1,4 @@
+if your proximity sensor value become less than
+5 it will show you some image(call near image)
+else it will show you another image(call far image).
+ 
