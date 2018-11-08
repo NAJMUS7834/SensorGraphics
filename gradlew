@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
 ##############################################################################
-##
-##  Gradle start up script for UN*X
-##
+
+##Gradle start up script for UN*X
+
 ##############################################################################
 
 # Attempt to set APP_HOME
@@ -127,7 +127,7 @@ if $cygwin ; then
     if [ "$GRADLE_CYGPATTERN" != "" ] ; then
         OURCYGPATTERN="$OURCYGPATTERN|($GRADLE_CYGPATTERN)"
     fi
-    # Now convert the arguments - kludge to limit ourselves to /bin/sh
+    # convert the arguments - kludge to limit ourselves to /bin/sh
     i=0
     for arg in "$@" ; do
         CHECK=`echo "$arg"|egrep -c "$OURCYGPATTERN" -`
